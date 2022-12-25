@@ -1,8 +1,8 @@
-board = [
- 
- 
- 
- 
+
+
+
+board=[
+
 [0,0,0,0,3,5,9,2,0],
 [6,9,3,0,0,0,7,0,0],
 [0,4,0,0,0,9,0,6,1],
@@ -14,8 +14,8 @@ board = [
 [8,6,0,0,0,0,0,3,2] 
 
 
-]
 
+]
 
 
 
@@ -83,11 +83,11 @@ def find_empty(bo):
                 return (i, j)  
 
     return None
-print( "Welcome to Fer's Zudoku Solver Algorithm")
+print( "Welcome to Fer's Sudoku Solver Algorithm")
 print_board(board)
 solve(board)
 print("____________________________________")
-print('Now try to solve the zudoku yourself, when ready to verify the puzle...')
+print('Now try to solve the Sudoku yourself, when ready to verify the puzle...')
 solvborad = input('Press x to solve the board.')
 print()
 if solvborad == 'x':
